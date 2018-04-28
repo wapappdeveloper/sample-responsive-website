@@ -1,0 +1,28 @@
+.brand-logo{
+    top:50%;
+    transform: translateY(-50%) translateX(-50%);
+    width:100px;
+    height:50px;
+    background: url('assets/pngs/logo-footer.png') no-repeat;
+    background-size:cover;
+}
+.sidenav-bar{
+    position: fixed;
+    top:0;
+    left:0px;
+    width:200px;
+    height:auto;
+    background: black;
+    z-index:999;
+}
+.material-icons{
+    cursor: pointer;
+}
+.arrow{
+    font-size: 40px;
+    width:30px;
+    height:100%;
+    float:right;
+    cursor: pointer;
+    line-height: 52px;
+}

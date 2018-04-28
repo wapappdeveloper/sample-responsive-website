@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="logo"></div>
+  <form>
+    <span class="login-label">Login</span>
+    <input type="text" class="username" placeholder="Username" name="username" [(ngModel)]="credential.username">
+    <input type="password" class="password" placeholder="Password" name="username" [(ngModel)]="credential.password">
+    <input type="button" class="button" value="Log In" (click)="submitCredential()">
+  </form>
+</div>
