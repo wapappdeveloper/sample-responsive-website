@@ -3,7 +3,7 @@
     transform: translateY(-50%) translateX(-50%);
     width:100px;
     height:50px;
-    background: url('assets/pngs/logo-footer.png') no-repeat;
+    background: url('/assets/pngs/logo-footer.png') no-repeat;
     background-size:cover;
 }
 .sidenav-bar{
@@ -25,4 +25,14 @@
     float:right;
     cursor: pointer;
     line-height: 52px;
+}
+.logout{
+    position:absolute;
+    top:23px;
+    right:10px;
+    width:20px;
+    height:20px;
+    cursor: pointer;
+    background: url('/assets/pngs/logout.png') no-repeat;
+    background-size:cover;
 }

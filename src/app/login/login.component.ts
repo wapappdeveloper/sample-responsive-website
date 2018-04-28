@@ -40,6 +40,8 @@ export class LoginComponent implements OnInit {
       this.authnService.authorization = true;
       this.authnGuard.allowNavigation = true;
       this.datapersistance.setData(this.credential);
+      //this.credential.username = '';
+      //this.credential.password = '';
       this.router.navigateByUrl('main');
     } else {
       alert('username and password does not match');

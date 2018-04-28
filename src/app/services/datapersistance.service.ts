@@ -13,4 +13,8 @@ export class DatapersistanceService {
     return localStorage.getItem('credential');
   }
 
+  destroyData(){
+    localStorage.removeItem('credential');
+  }
+
 }

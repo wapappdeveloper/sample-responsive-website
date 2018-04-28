@@ -1,5 +1,5 @@
 .footer-logo{
-    background: url('assets/pngs/logo-footer.png');
+    background: url('/assets/pngs/logo-footer.png');
 }
 .footer-copyright{
     background:rgba(253, 223, 159, 0.73)

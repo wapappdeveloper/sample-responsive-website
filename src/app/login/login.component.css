@@ -19,7 +19,7 @@
     position: relative;
     width:100px;
     height:30px;
-    background:url('assets/pngs/myblue-logo.png') no-repeat;
+    background:url('/assets/pngs/myblue-logo.png') no-repeat;
     background-size: contain;
 }
 .login-label{
